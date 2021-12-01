@@ -1,0 +1,371 @@
+body, html{
+    background-color: rgb(206,207,219);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}  
+
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+.tudo {
+    float: left;
+}
+
+.topo {
+    width: 100%;
+    line-height: 1;
+    margin-right: -220px;
+    
+}
+
+header {
+    margin: 36.1px 230px 30px 300px;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+    background-color: chartreuse;
+}
+
+section img {
+    padding-right: 230px;
+    background-color:chocolate ;
+}
+
+.topo a {
+    color: rgb(5, 87, 148);
+    text-decoration: none;
+    
+}
+
+.topo ul li {
+    list-style: none;
+    display: inline;
+}
+
+.topo ul li a {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    background: rgb(5, 87, 148);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topo ul li:last-child a {
+    border: none;
+}
+
+.topo ul li:last-child a:hover, .home .corrente {
+    color: white;
+    background: rgb(100, 150, 255);
+
+}
+
+nav > ul {
+    width: 100%;
+    background: rgb(5, 87, 148);
+    margin: 5px -80px 0 0;
+    padding-left: 0;
+}
+
+nav {
+    
+    border-top: 1px solid rgb(5, 87, 148);
+    width: 100%;
+    width: calc(100% + 40px);
+    
+}
+
+.slider {
+    width: 69%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+.slides {
+    width: 500%;
+    height: 300px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 1px solid none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: none;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+.navigation-auto div {
+    border: 1px solid none;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;   
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: none;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: none;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: none;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: none;
+}
+
+
+
+
+h1{
+    color: rgb(52,42,107);
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 40px;
+    
+}
+
+.container-granito{
+   
+    width: 30%;
+    margin-left: 250px;
+    padding-left: 200px;
+    align-content: center;
+    
+    
+    
+      
+}
+
+.titulo-granito , h3{
+    padding-left: 33px;
+    
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.img-granito > img{
+    width: 200px;
+    height: 180px;
+    align-content: center;
+  
+}
+
+.container-marmore{
+    
+    float: right;
+    position: relative;
+    margin-top: -255px;
+    margin-right: 450px;
+    
+    
+}
+
+.img-marmore > img{
+    width: 200px;
+    height: 178px;
+    align-content: center;
+    
+
+
+}
+
+.titulo-marmore, h3{
+ padding-left: 30px ;
+ margin-top: 40px;
+ margin-bottom: 10px;
+}
+
+.titulo-obras{
+    margin-top: 80px;
+    margin-bottom: -50px;
+}
+.container-geral{
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-content: center;
+  
+}
+.container-banheiro{
+    
+    width: 20%;
+    padding-left: -200px;
+    margin-left: 90px;   
+    
+}
+.img-banheiro > img{
+    width: 320px;
+    height: 280px;
+    
+}  
+
+.titulo-banheiro{
+    margin-left: 90px;
+}
+
+.container-cozinha{
+    width: 20%;
+    float: right;
+    margin-top: -358px;
+    margin-right: 550px;
+}
+.img-cozinha > img{
+    width: 320px;
+    height: 280px;
+    
+}
+
+.titulo-cozinha{
+    margin-left: 90px;
+}
+
+
+.container-ambiente{
+    
+    
+    margin-left: 820px;
+    margin-top: -475px;
+    padding-top: 115px;
+    
+}
+
+
+.img-ambiente > img{
+    width: 320px;
+    position: absolute;
+    height: 280px;
+    margin-left: 80px;
+    
+    
+}
+
+.titulo-ambiente{
+    margin-left: 140px;
+}
+
+#sobre-empresa{
+    text-align: center;
+    width: 98%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+
+#title-QuemSomos{
+    margin-top: 450px;
+}
+
+#img-empresa{
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+
+.endereco{
+    margin-top: 250px;
+    text-align: center;
+}
+    
+    
+
+.footer-bottom{
+    background-color: rgb(5, 87, 148);
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+    
+
+    
+    
