@@ -108,3 +108,15 @@ body {
     
     
 }
+
+
+.footer-bottom{
+    background-color: rgb(5, 87, 148);
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
