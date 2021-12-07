@@ -25,19 +25,19 @@ body, html{
 
 header {
     margin: 36.1px 230px 30px 300px;
-    background-color: black;
+    
 }
 
 section {
     display: flex;
     align-items: center;
     margin-left: -100px;
-    background-color: chartreuse;
+   
 }
 
 section img {
     padding-right: 230px;
-    background-color:chocolate ;
+   
 }
 
 .topo a {
@@ -102,6 +102,7 @@ nav {
     width: 500%;
     height: 300px;
     display: flex;
+   
 }
 
 .slides input {
@@ -118,80 +119,6 @@ nav {
     height: 100%;
 }
 
-.navigation-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn {
-    border: 1px solid none;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 3s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 40px;
-}
-
-.manual-btn:hover {
-    background: none;
-}
-
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-    margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-    margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-    margin-left: -60%;
-}
-
-.navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 260px;
-}
-
-.navigation-auto div {
-    border: 1px solid none;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;   
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: none;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: none;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: none;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: none;
-}
 
 
 
