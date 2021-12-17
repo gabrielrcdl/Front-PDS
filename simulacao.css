@@ -1,0 +1,145 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+    
+}
+
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+.r1{
+   
+  padding: 10px
+   
+}
+.r2{
+    background-color:rgb(5, 87, 148);
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 10px;
+    align-self: center;
+    padding: 15px;
+     
+}
+
+.paragrafo{
+    margin: 60px;
+}
+
+tr:hover{
+    color: rgb(5, 87, 148);
+}
+
+.container-table{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(240, 241, 255);
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-simula-geral{
+    background-image: url(/Front_pedraReal/images/fundosimulamarmore.jpg);
+    background-size: cover;
+    color: bisque;
+    height: 270px;
+    margin: 30px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    
+    
+}
+
+.container-simula-geral-2{
+    background-image: url(/Front_pedraReal/images/Granito_Verde_labrador.jpg);
+    background-size: cover;
+    color: bisque;
+    height: 270px;
+    margin: 30px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+   
+    
+    
+}
+
+.container-simula{
+    
+    margin-top: 50px;
+}
+
+input,select{
+    
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+   
+
+}
+
+#link{
+    text-decoration: none;
+    color: aliceblue
+}
+
+.btn-voltar {
+    background-color:rgb(5, 87, 148); 
+    border: none;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    
+    
+    
+    
+}
+.btn-voltar:hover{
+    background-color: rgba(19, 122, 201, 0.356);
+    color: rgb(52,42,107); 
+    
+    
+}
+
+
+
+ 
+  
+.footer-bottom{
+    background-color: rgb(5, 87, 148);
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 20px;    
+}
+
+

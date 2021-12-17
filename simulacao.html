@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Front_pedraReal/simulacao.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/Ariil-Alphabet-Letter-P.ico" type="image/x-icon">
+
+    <title>Simulção de Preços</title>
+</head>
+
+<body>
+
+    <div>
+
+        <div class="container1">
+
+            <section class="rect r1">
+                <img id="logo" src="/Front_pedraReal/images/logo.png" alt="logo">
+            </section>
+
+            <section class="rect r2">
+                <h1>Simule o valor de sua compra</h1>
+            </section>
+
+        </div>
+        <main>
+
+            <div class="container2">
+
+                <section class="paragrafo">
+                    <p>O ponto forte de nossa empresa sem dúvidas é mármores e granitos, veja a tabela com nossos produtos disponíveis e preços
+                        </p>
+                </section>
+
+                <section class="container-table">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Mármore</th>
+                                <th scope="col">Preço (metro)</th>
+                                <th scope="col">Granito</th>
+                                <th scope="col">Preço (metro)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Branco Carrara</td>
+                                <td>150 R$</td>
+                                <td>Cinza Corumba</td>
+                                <td>100 R$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Marrom Imperador</td>
+                                <td>200 R$</td>
+                                <td>Verde Pérola</td>
+                                <td>90 R$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Travertino Turco</td>
+                                <td>350 R$</td>
+                                <td>Preto São Gabriel</td>
+                                <td>95 R$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <div class="container">
+
+                    <div class="container-simula-geral">
+
+                        <section class="container-simula">
+                            <h3>Vai de Mármore?</h3>
+                            <h4>Para facilitar suas contas...</h4>
+                            <form id="formulario">
+                                <p id="mensagem">Selecione o Tipo de Mármore e a Quantidade Desejada (metro)</p>
+
+                                <select name="tipo" onchange="updateValue()">
+                                    <option value="Carrara"> Branco Carrara</option>
+                                    <option value="Imperador"> Marrom Imperador</option>
+                                    <option value="Turco"> Travertino Turco</option>
+                                </select>
+                                <input name="quantidade" type="number" value="0" onchange="updateValue()" />
+
+                            </form>
+                        </section>
+
+
+                    </div>
+
+                    <div class="container-simula-geral-2">
+
+                        <section class="container-simula">
+                            <h3>Vai de Granito?</h3>
+                            <h4>Para facilitar suas contas...</h4>
+                            <form id="formulario2">
+                                <p id="mensagem2">Selecione o Tipo de Granito e a Quantidade Desejada (metro)</p>
+
+                                <select name="tipo2" onchange="updateValue2()">
+                                    <option value="Corumba"> Cinza Corumba</option>
+                                    <option value="Perola"> Verde Pérola</option>
+                                    <option value="Gabriel"> Preto São Gabriel</option>
+                                </select>
+                                <input name="quantidade2" type="number" value="0" onchange="updateValue2()" />
+
+                            </form>
+                        </section>
+
+
+                    </div>
+
+                </div>
+                <section class="container-botao">
+
+                    <button class="btn-voltar"><a id="link" href="/Front_pedraReal/index.html">Voltar</a></button>
+                </section>
+
+
+
+
+        </main>
+
+        <footer>
+            <div>
+                <div class="footer-bottom">
+                    <h6><strong>Copyright desenvolvido por MG todos os diretios reservados &copy;2021</strong></h6>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+        
+    </div>
+    <script src="/Front_pedraReal/simulacao.js"></script>
+</body>
+
+</html>

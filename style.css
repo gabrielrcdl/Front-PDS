@@ -1,8 +1,7 @@
 body, html{
     background-color: rgb(206,207,219);
-    width: 100%;
-    height: 100%;
-    /*box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;   
 }  
 
 
@@ -94,37 +93,25 @@ nav {
     
 }
 
-.slider {
-    width: 69%;
-    height: 300px;
-    border-radius: 10px;
+.slide-first{
+
+    width: 850px;
+    height: 420px;
+    
     overflow: hidden;
-    margin-left: 200px;
-    padding-top: 10px;
+    margin: auto;
 }
 
-.slides {
+.slide-first .fotos{
     width: 500%;
-    height: 300px;
-    display: flex;
-   
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
-.slides input {
-    display: none;
+.slide-first .fotos img{
+    width: 19.9%;
 }
-
-.slide {
-    width: 20%;
-    transition: 2s;
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-}
-
-
 
 
 
@@ -296,20 +283,69 @@ a *{
     margin-top: 250px;
     text-align: center;
 }
-    
+
+
     
 
-.footer-bottom{
+.container-footer{
+  
+    background-color: blue;
+    
+    
+    padding: 100px;
+      
+    
+    
+}
+
+#insta{
+    width: 100px;
+}
+
+.container-rede{
+    
+    width: 10%;
+    
+    
+}
+
+.conteudo-footer{
+    display: flex;
+    
+}
+
+.footer-copy{
     background-color: rgb(5, 87, 148);
     text-align: center;
     text-transform: uppercase;
     color: whitesmoke;
     padding-top: 5px;
     padding-bottom: 5px;
+    flex-grow: 1;
+    
     
     
 }
+
+h6{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#img-insta{
+    width: 100px;
+    
+}
+
+
+
+   
     
 
+
     
+
+
+
+  
     
